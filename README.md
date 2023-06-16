@@ -7,8 +7,7 @@ To get started, you'll need to have [Python 3](https://www.python.org/downloads/
 
 ## Dependencies
 To install the required packages, open up your terminal or command prompt and navigate to the project's root directory. Then, run the following command:
-```shell
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Usage
 1. Clone or download the project and navigate to the root directory.
