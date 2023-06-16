@@ -1,0 +1,12 @@
+# File: requirements.txt
+
+# Packages for running the app
+python_version >= "3.6"
+tkinter
+requests
+Pillow
+python-dotenv
+ttkthemes
+
+# Packages for testing
+pytest
