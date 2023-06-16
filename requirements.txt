@@ -2,7 +2,6 @@
 
 # Packages for running the app
 python_version >= "3.6"
-tkinter==0.0.1  # Specify the version here
 requests
 Pillow
 python-dotenv
