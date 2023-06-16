@@ -1,4 +1,5 @@
 import pytest
+import time
 from weather_app import create_gui
 from tkinter import Tk
 
@@ -6,4 +7,11 @@ from tkinter import Tk
 def test_create_gui():
     root = Tk()
     create_gui()
-    root.after(1000, root.destroy)  # Delay the destruction of the window
+
+    timeout = 5  # Set the timeout duration in seconds
+    start_time = time.time()
+
+    while time.time() - start_time < timeout:
+        root.update()
+
+    root.destroy()
