@@ -9,6 +9,7 @@ from ttkthemes import ThemedTk
 
 
 def get_weather_data(location):
+    load_dotenv()  # Load environment variables from .env file
     api_key = os.getenv("API_KEY")
 
     if not api_key:
