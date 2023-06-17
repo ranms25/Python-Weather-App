@@ -1,6 +1,6 @@
 
 # Python-Weather-App
-Python Weather App is a simple command-line application that allows users to retrieve the current weather information for a specified location. Built using Python, it utilizes a weather service API to fetch real-time weather data, including temperature, humidity, and weather conditions. This app retrieves weather information from [OpenWeatherMa](https://openweathermap.org/)
+Python Weather App is a simple command-line application that allows users to retrieve the current weather information for a specified location. Built using Python, it utilizes a weather service API to fetch real-time weather data, including temperature, humidity, and weather conditions. This app retrieves weather information from [OpenWeather](https://openweathermap.org/)
 
 # Getting Started
 ### Installation
