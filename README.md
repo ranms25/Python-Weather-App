@@ -13,15 +13,17 @@ To install the required packages, open up your terminal or command prompt and na
 As OpenWeather requires an API key, please request and use your [own API key](https://openweathermap.org/appid) for using this app.
 
 ## Usage
-1.1 Clone or download the project and navigate to the root directory.
-1.2. Add your own OpenWeather API key to [.env](https://github.com/ranms25/Python-Weather-App/blob/main/.env) file.
-2. Open the weather_app.py file and run it using Python.
-3. The weather application window will open.
-4. Enter the desired location in the location input field.
-5. Click the "Get Weather" button to retrieve the weather information for the specified location.
-6. The weather data will be displayed in the text field below, including temperature, humidity, weather conditions, wind speed, wind direction, rainfall, and snowfall
-7. An icon representing the weather conditions will also be displayed.
-8. If there is an error retrieving the weather data, an error message will be displayed in the text field.
+1. Clone or download the project and navigate to the root directory.
+2. Add your own OpenWeather API key to the `.env` file. You can find the file [here](https://github.com/ranms25/Python-Weather-App/blob/main/.env).
+3. Open the `weather_app.py` file and run it using Python.
+4. The weather application window will open.
+5. Enter the desired location in the location input field.
+6. Click the "Get Weather" button to retrieve the weather information for the specified location.
+7. The weather data will be displayed in the text field below, including temperature, humidity, weather conditions, wind speed, wind direction, rainfall, and snowfall.
+8. An icon representing the weather conditions will also be displayed.
+9. If there is an error retrieving the weather data, an error message will be displayed in the text field.
+
+Please note that step 2 is important to ensure that the API key is provided so that the application can make requests to the OpenWeather API successfully.
 
 ## Test
 To run the tests for the weather application on Windows:
