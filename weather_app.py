@@ -10,6 +10,10 @@ from ttkthemes import ThemedTk
 
 def get_weather_data(location):
     api_key = os.getenv("API_KEY")
+
+    if not api_key:
+        raise ValueError("API key is missing. Please add it to the .env file.")
+
     api_url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
 
     response = requests.get(api_url)
@@ -60,7 +64,7 @@ def get_weather(location_entry, tfield, weather_icon_label):
         icon_image_tk = ImageTk.PhotoImage(icon_image)
         weather_icon_label.config(image=icon_image_tk)
         weather_icon_label.image = icon_image_tk
-    except (requests.RequestException, json.JSONDecodeError) as e:
+    except (requests.RequestException, json.JSONDecodeError, ValueError) as e:
         tfield.delete(1.0, tk.END)
         tfield.insert(tk.END, f"Error: {str(e)}")
 

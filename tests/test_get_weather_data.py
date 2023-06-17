@@ -1,6 +1,7 @@
 import pytest
 import os
 import requests
+from dotenv import load_dotenv
 from weather_app import get_weather_data
 
 class MockResponse:
@@ -16,6 +17,8 @@ class MockResponse:
             raise requests.exceptions.HTTPError
 
 def test_get_weather_data(monkeypatch):
+    load_dotenv()  # Load environment variables from .env file
+
     api_key = os.getenv("API_KEY")
     mock_api_key = api_key
     mock_location = "New York"
