@@ -4,6 +4,7 @@ Python Weather App is a simple command-line application that allows users to ret
 # Getting Started
 ### Installation
 To get started, you'll need to have [Python 3](https://www.python.org/downloads/) installed on your computer.
+>**Note: This program might works only for windows os.**
 
 ## Dependencies
 To install the required packages, open up your terminal or command prompt and navigate to the project's root directory. Then, run the following command:
