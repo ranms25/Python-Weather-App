@@ -1,3 +1,4 @@
+
 # Python-Weather-App
 Python Weather App is a simple command-line application that allows users to retrieve the current weather information for a specified location. Built using Python, it utilizes a weather service API to fetch real-time weather data, including temperature, humidity, and weather conditions. This app retrieve weather information from [OpenWeatherMap(https://openweathermap.org/)
 
@@ -10,11 +11,10 @@ To get started, you'll need to have [Python 3](https://www.python.org/downloads/
 To install the required packages, open up your terminal or command prompt and navigate to the project's root directory. Then, run the following command:
 ```pip install -r requirements.txt```
 As OpenWeather requires an API key, please request and use your [own API key](https://openweathermap.org/appid) for using this app.
-.
 
 ## Usage
 1.1 Clone or download the project and navigate to the root directory.
-1.2. Add your own OpenWeather API key to [.env](https://github.com/ranms25/Python-Weather-App/blob/main/.env)file.
+1.2. Add your own OpenWeather API key to [.env](https://github.com/ranms25/Python-Weather-App/blob/main/.env) file.
 2. Open the weather_app.py file and run it using Python.
 3. The weather application window will open.
 4. Enter the desired location in the location input field.
